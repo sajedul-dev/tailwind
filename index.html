@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.fonfig.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===================== navbar start here ================= -->
+    
+    <nav class="bg-red-400 py-8 border-b-4 border-blue-500">
+        <div class="max-w-container mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-4xl font-bold">Logo</h1>
+            </div>
+            <div>
+                <ul class="flex gap-x-3 text-xl">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======================== banner part start here ================ -->
+
+    <section class="py-28 bg-orange-300">
+        <div class="max-w-container mx-auto flex items-center">
+            <div class="w-1/2">
+                <h1 class="text-4xl font-bold pb-2.5 ">Hello everyone how are you today?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cupiditate dolorum voluptatibus nostrum facere? Rem corrupti vitae pariatur commodi dicta minima nesciunt impedit omnis ad asperiores, nostrum vero ipsum odit? Ex earum consequuntur impedit non harum a repellat. Dolor vel velit ipsa eligendi laudantium! Doloremque reiciendis voluptate minus sint debitis.</p>
+                <button class="pt-4">
+                    <a class="px-10 py-5 inline-block bg-red-400 text-xl hover:bg-sky-700 ease-linear duration-200 rounded-lg" href="">About Us</a>
+                </button>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100057009353477">
+                    <i class="fa-brands fa-facebook px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700 ease-linear duration-200"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/mdsajedul720/">
+                    <i class="fa-brands fa-instagram  px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700  ease-linear duration-200">
+                    </i>
+                </a>
+                <a target="_blank" href="https://github.com/sajedul-dev">
+                    <i class="fa-brands fa-square-github px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700  ease-linear duration-200 "></i>
+                    
+                </a>
+            </div>
+            <div class="w-1/2 ">
+                <img data-aos="zoom-in" data-aos-duration="2000" src="images/banner.jpg" alt="not found">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= project part start here =================== -->
+
+    <section class="py-28 bg-lime-200">
+        <div class="max-w-container mx-auto">
+            <div>
+                <h1 class="text-center text-4xl font-bold pb-[45px] capitalize">Here is our some project </h1>
+            </div>
+            <div class="flex items-center justify-center gap-x-6 text-4xl ">
+                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">All</h3>
+                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">New project</h3>
+                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">Old project</h3>
+                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">Upcoming project</h3>
+            </div>
+            <div class="pt-[60px] flex gap-x-3 gap-y-3 flex-wrap items-center justify-center ">
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="flip-right" data-aos-duration="2000" class="object-cover w-full h-full " src="images/project.jpg" alt="not found">
+                </div>
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="zoom-in" data-aos-duration="2000"  class="object-cover w-full h-full" src="images/banner.jpg" alt="not found">
+                </div>
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="zoom-in-down" data-aos-duration="2000" class="object-cover w-full h-full" src="images/project2.jpg" alt="not found">
+                </div>
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="zoom-in-up" data-aos-duration="2000" class="object-cover w-full h-full" src="images/project3.jpg" alt="not found">
+                </div>
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="zoom-out" data-aos-duration="2000" class="object-cover w-full h-full" src="images/project4.jpg" alt="not found">
+                </div>
+                <div class="w-[360px] h-[200px] bg-gray-600 ">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="object-cover w-full h-full" src="images/project5.jpg" alt="not found">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= review part start here ========================= -->
+
+    <section class="py-28 bg-green-300">
+        <div class="max-w-container mx-auto">
+            <div>
+                <h1 class="text-center text-4xl font-bold capitalize">Here is our some review</h1>
+            </div>
+            <div class="flex gap-x-3 gap-y-3 flex-wrap items-center justify-center pt-[45px]">
+                <div class="w-[380px] h-[500px] bg-red-400">
+                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px]">
+                        <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
+                    </div>
+                    <h1 class="text-center font-bold ">Rashid khan</h1>
+                    <h2 class="text-center">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit idnus.</p>
+                </div>
+                <div class="w-[380px] h-[500px] bg-red-400">
+                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px]">
+                        <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
+                    </div>
+                    <h1 class="text-center font-bold ">Rashid khan</h1>
+                    <h2 class="text-center">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit aisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit qnsperiores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id ippe minus.</p>
+                </div>
+                <div class="w-[380px] h-[500px] bg-red-400">
+                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px] text-center">
+                        <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
+                    </div>
+                    <h1 class="text-center font-bold ">Rashid khan</h1>
+                    <h2 class="text-center">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit riores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id minus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== copywrite part start here ========================= -->
+
+    <section class="py-8 bg-orange-300">
+        <div class="max-w-container mx-auto">
+            <div>
+                <h1 class="text-center capitalize font-bold text-xl">this is copywrite part ! </h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/48bd593716.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
