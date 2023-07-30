@@ -5,34 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind css</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="tailwind.fonfig.js"></script>
+    <script src="tailwind.config.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- ===================== navbar start here ================= -->
     
-    <nav class="bg-red-400 py-8 border-b-4 border-blue-500">
+    <nav class="bg-back py-8 border-b-4 border-navbg">
         <div class="max-w-container mx-auto flex justify-between items-center">
             <div>
-                <h1 class="text-4xl font-bold">Logo</h1>
+                <h1 class="text-6xl font-bold">Logo</h1>
             </div>
             <div>
                 <ul class="flex gap-x-3 text-xl">
                     <li>
-                        <a href="#">Home</a>
+                        <a class="py-[10px] px-[25px] bg-navbg text-fontcolor hover:bg-[#9403fc] rounded-lg ease-linear duration-200" href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a class="py-[10px] px-[25px] bg-navbg text-fontcolor hover:bg-[#9403fc] rounded-lg ease-linear duration-200" href="#banner">About</a>
                     </li>
                     <li>
-                        <a href="#">Service</a>
+                        <a class="py-[10px] px-[25px] bg-navbg text-fontcolor hover:bg-[#9403fc] rounded-lg ease-linear duration-200" href="#project">Project</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a class="py-[10px] px-[25px] bg-navbg text-fontcolor hover:bg-[#9403fc] rounded-lg ease-linear duration-200" href="#review">Review</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="py-[10px] px-[25px] bg-navbg text-fontcolor hover:bg-[#9403fc] rounded-lg ease-linear duration-200" href="#form">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -41,23 +41,23 @@
 
     <!-- ======================== banner part start here ================ -->
 
-    <section class="py-28 bg-orange-300">
+    <section id="banner" class="py-28 bg-white border-b-4 border-navbg">
         <div class="max-w-container mx-auto flex items-center">
             <div class="w-1/2">
                 <h1 class="text-4xl font-bold pb-2.5 ">Hello everyone how are you today?</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cupiditate dolorum voluptatibus nostrum facere? Rem corrupti vitae pariatur commodi dicta minima nesciunt impedit omnis ad asperiores, nostrum vero ipsum odit? Ex earum consequuntur impedit non harum a repellat. Dolor vel velit ipsa eligendi laudantium! Doloremque reiciendis voluptate minus sint debitis.</p>
                 <button class="pt-4">
-                    <a class="px-10 py-5 inline-block bg-red-400 text-xl hover:bg-sky-700 ease-linear duration-200 rounded-lg" href="">About Us</a>
+                    <a class="px-10 py-5 inline-block bg-navbg text-xl hover:bg-btn text-white ease-linear duration-200 rounded-lg" href="">About Us</a>
                 </button>
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=100057009353477">
-                    <i class="fa-brands fa-facebook px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700 ease-linear duration-200"></i>
+                    <i class="fa-brands fa-facebook px-[15px] py-[15px] bg-navbg rounded-full text-xl hover:bg-btn text-white ease-linear duration-200"></i>
                 </a>
                 <a target="_blank" href="https://www.instagram.com/mdsajedul720/">
-                    <i class="fa-brands fa-instagram  px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700  ease-linear duration-200">
+                    <i class="fa-brands fa-instagram  px-[15px] py-[15px] bg-navbg rounded-full text-xl hover:bg-btn text-white  ease-linear duration-200">
                     </i>
                 </a>
                 <a target="_blank" href="https://github.com/sajedul-dev">
-                    <i class="fa-brands fa-square-github px-[15px] py-[15px] bg-red-400 rounded-full text-xl hover:bg-sky-700  ease-linear duration-200 "></i>
+                    <i class="fa-brands fa-square-github px-[15px] py-[15px] bg-navbg rounded-full text-xl hover:bg-btn text-white  ease-linear duration-200 "></i>
                     
                 </a>
             </div>
@@ -69,16 +69,16 @@
 
     <!-- ========================= project part start here =================== -->
 
-    <section class="py-28 bg-lime-200">
+    <section id="project" class="py-28 bg-[#03fc94] border-b-4 border-navbg">
         <div class="max-w-container mx-auto">
             <div>
-                <h1 class="text-center text-4xl font-bold pb-[45px] capitalize">Here is our some project </h1>
+                <h1 class="text-center text-4xl font-bold pb-[45px] capitalize">Here is our some project !</h1>
             </div>
             <div class="flex items-center justify-center gap-x-6 text-4xl ">
-                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">All</h3>
-                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">New project</h3>
-                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">Old project</h3>
-                <h3 class="px-10 py-5 inline-block bg-red-400 rounded-lg  hover:bg-sky-700 ease-linear duration-200 cursor-pointer">Upcoming project</h3>
+                <h3 class="px-10 py-5 inline-block bg-navbg rounded-lg  hover:bg-btn text-white ease-linear duration-200 cursor-pointer">All</h3>
+                <h3 class="px-10 py-5 inline-block bg-navbg rounded-lg  hover:bg-btn text-white ease-linear duration-200 cursor-pointer">New project</h3>
+                <h3 class="px-10 py-5 inline-block bg-navbg rounded-lg  hover:bg-btn text-white ease-linear duration-200 cursor-pointer">Old project</h3>
+                <h3 class="px-10 py-5 inline-block bg-navbg rounded-lg  hover:bg-btn text-white ease-linear duration-200 cursor-pointer">Upcoming project</h3>
             </div>
             <div class="pt-[60px] flex gap-x-3 gap-y-3 flex-wrap items-center justify-center ">
                 <div class="w-[360px] h-[200px] bg-gray-600 ">
@@ -105,37 +105,82 @@
 
     <!-- ======================= review part start here ========================= -->
 
-    <section class="py-28 bg-green-300">
+    <section id="review" class="py-28 bg-back border-b-4 border-navbg">
         <div class="max-w-container mx-auto">
             <div>
-                <h1 class="text-center text-4xl font-bold capitalize">Here is our some review</h1>
+                <h1 class="text-center text-4xl font-bold capitalize">Here is our some review !</h1>
             </div>
             <div class="flex gap-x-3 gap-y-3 flex-wrap items-center justify-center pt-[45px]">
-                <div class="w-[380px] h-[500px] bg-red-400">
-                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px]">
+                <div class="w-[380px] h-[500px] bg-navbg rounded-md">
+                    <div class="h-[80px] w-[80px] bg-navbg mx-auto mt-[25px]">
                         <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
                     </div>
-                    <h1 class="text-center font-bold ">Rashid khan</h1>
-                    <h2 class="text-center">Developer / Designer</h2>
-                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit idnus.</p>
+                    <h1 class="text-center font-bold text-fontcolor">Rashid khan</h1>
+                    <h2 class="text-center text-fontcolor">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px] text-fontcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit idnus.</p>
                 </div>
-                <div class="w-[380px] h-[500px] bg-red-400">
-                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px]">
-                        <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
+                <div class="w-[380px] h-[500px] bg-navbg rounded-md ">
+                    <div class="h-[80px] w-[80px] bg-navbg mx-auto mt-[25px]">
+                        <img class="object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
                     </div>
-                    <h1 class="text-center font-bold ">Rashid khan</h1>
-                    <h2 class="text-center">Developer / Designer</h2>
-                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit aisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit qnsperiores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id ippe minus.</p>
+                    <h1 class="text-center font-bold text-fontcolor ">Rashid khan</h1>
+                    <h2 class="text-center text-fontcolor">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px] text-fontcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit aisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit qnsperiores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id ippe minus.</p>
                 </div>
-                <div class="w-[380px] h-[500px] bg-red-400">
-                    <div class="h-[80px] w-[80px] bg-red-400 mx-auto mt-[25px] text-center">
+                <div class="w-[380px] h-[500px] bg-navbg rounded-md ">
+                    <div class="h-[80px] w-[80px] bg-navbg mx-auto mt-[25px] text-center">
                         <img class=" object-cover w-full h-full rounded-full" src="images/man.jpg" alt="not found">
                     </div>
-                    <h1 class="text-center font-bold ">Rashid khan</h1>
-                    <h2 class="text-center">Developer / Designer</h2>
-                    <p class="pt-[55px] pl-[15px] pr-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit riores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id minus.</p>
+                    <h1 class="text-center font-bold text-fontcolor ">Rashid khan</h1>
+                    <h2 class="text-center text-fontcolor">Developer / Designer</h2>
+                    <p class="pt-[55px] pl-[15px] pr-[15px] text-fontcolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor magni nulla iusto beatae unde, tempore non aliquid odit minima eos voluptatum possimus quos mollitia nam nobis consectetur et autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloribus expedita, delectus necessitatibus fuga aspernatur est hic ex odit riores? Inventore iste, expedita optio velit voluptatem qiam quisquam numquam vel impedit id minus.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ===================== form part start here ============================== -->
+
+    <section id="form" class="py-28">
+        <div>
+            <h1 class="text-center text-4xl font-bold capitalize">Resister here !</h1>
+        </div>
+        <div class="max-w-container mx-auto">
+            <form>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="password" name="floating_password" id="floating_password" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password</label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="password" name="repeat_password" id="floating_repeat_password" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_repeat_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm password</label>
+            </div>
+            <div class="grid md:grid-cols-2 md:gap-6">
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
+            </div>
+            </div>
+            <div class="grid md:grid-cols-2 md:gap-6">
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Company Name (exceptional) </label>
+            </div>
+            </div>
+            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+            </form>
         </div>
     </section>
 
@@ -149,10 +194,15 @@
         </div>
     </section>
 
+
+
+
+    <!-- ====================== CDN ============================ -->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/48bd593716.js" crossorigin="anonymous"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>
